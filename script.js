@@ -1,0 +1,34 @@
+const CallBackHell = document.getElementById("callBack")
+setTimeout(()=>{
+    CallBackHell.innerText='10'
+    setTimeout(()=>{
+        CallBackHell.innerText='9'
+        setTimeout(()=>{
+            CallBackHell.innerText='8'
+            setTimeout(()=>{
+                CallBackHell.innerText='7'
+                setTimeout(()=>{
+                    CallBackHell.innerText='6'
+                    setTimeout(()=>{
+                        CallBackHell.innerText='5'
+                        setTimeout(()=>{
+                            CallBackHell.innerText='4'
+                            setTimeout(()=>{
+                                CallBackHell.innerText='3'
+                                setTimeout(()=>{
+                                    CallBackHell.innerText='2'
+                                    setTimeout(()=>{
+                                        CallBackHell.innerText='1'
+                                        setTimeout(()=>{
+                                            CallBackHell.innerText='Happy Independence Day'
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
